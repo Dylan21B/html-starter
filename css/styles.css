@@ -2,3 +2,10 @@
 body {
     background-color: darkcyan;
 }
+#green {
+   width: 200px;
+   height: 200px;
+   border: 1px solid green;
+   float: left;
+   margin: 5px;
+}
