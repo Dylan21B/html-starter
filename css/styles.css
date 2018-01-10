@@ -1,4 +1,10 @@
-
+* {
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    display: -wbekit-flex;
+}
 body {
     background-color: darkcyan;
 }
@@ -29,4 +35,17 @@ footer {
 
 .flex-item {
     margin: 1em;
+}
+img {
+    max-width: 100%;
+    margin-bottom: 20px; 
+}
+.monkey {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid purple;
+    margin: 105px 0 60px;
+    background: #434a25;
+    background-size: cover;
 }
